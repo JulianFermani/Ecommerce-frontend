@@ -38,14 +38,38 @@ font-family: 'Oswald', sans-serif;
 
  /* main */
 
+.main{
+  height: 100vh;
+  margin-top: 13rem;
+}
+
 .carrousel__container{
   position: relative;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
 .carrousel__list{
   overflow: hidden;
+}
+
+.carrousel__element{
+  margin-right: 30px;
+  position: relative;
+}
+
+.carrousel__name{
+  top: 7.5rem;
+  position: absolute;
+  text-align: center;
+}
+
+.carrousel__ml{
+  left: 1.7rem;
+}
+
+.carrousel__ml--m{
+  left: 2.3rem;
 }
 
 .carrousel__last, .carrousel__next{
@@ -54,11 +78,12 @@ font-family: 'Oswald', sans-serif;
   width: 30px;
   height: 30px;
   border: none;
-  top: calc(50% - 50px);
+  top: 50%;
   cursor: pointer;
   line-height: 30px;
   text-align: center;
   background: none;
+  font-size: 30px;
 }
 
 .carrousel__last{
